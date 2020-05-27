@@ -1,0 +1,11 @@
+#program to identify the extension /type of a file
+filename=input('Input the Filename:')
+if (filename[-3:]==".py"):
+ print("The extension of the file is:'python'")
+else:
+ print("The extension of the file not found")
+ 
+ #OUTPUT
+ 
+ Input the Filename:abc.py
+The extension of the file is:'python'
